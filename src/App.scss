@@ -1,9 +1,15 @@
+@import './variables.scss';
+
 .App {
     display: block;
     margin: 0 auto;
     text-align: center;
-    
-    @media (min-width: 750px) {
-        width: 80%;
+
+    .content > * {
+        display: inline-block;
+    }
+
+    @media (min-width: ($card-width + $card-padding * 2 + $card-margin * 2) * 6) {
+        width: ($card-width + $card-padding * 2 + $card-margin * 2) * 6;
     }
 }
