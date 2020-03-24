@@ -7,7 +7,7 @@ import './App.scss';
 const App = () => {
     return (
         <div className="App">
-            TEST
+            <h1>PokeDex Light</h1>
         </div>
     );
 }
